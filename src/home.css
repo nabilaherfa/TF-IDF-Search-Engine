@@ -1,0 +1,56 @@
+body {
+    background: url('WebBackground.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #4b663c;
+}
+
+#powered{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.perihal {
+    margin-top: 50px;
+}
+
+::-webkit-input-placeholder {
+    color: #f47a60;
+    font-style: italic;
+ }
+
+.bottom {
+    position: absolute;
+    width: 99%;
+    bottom: 0;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.list {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.search {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+}
+
+.search:hover {background-color: #3e8e41}
+
+.search:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
